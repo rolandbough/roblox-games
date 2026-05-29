@@ -12,9 +12,20 @@ Roblox Studio projects — version controlled with style.
 ## Getting Started
 
 1. Open Roblox Studio
-2. File → Open → pick a `.rbxlx` file from this repo
+2. File → Open → pick a `.rbxlx` file from `games/`
 3. Build, script, test
 4. Commit your changes back
+
+## Structure
+
+```
+roblox-games/
+├── games/          ← one folder per game
+│   └── obby-run/   ← your first project
+├── scripts/        ← reusable Luau scripts (checkpoints, kill blocks, etc.)
+├── assets/         ← shared models, audio, textures
+└── templates/      ← starter templates for new games
+```
 
 ## Tools
 
