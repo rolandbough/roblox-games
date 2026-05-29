@@ -1,0 +1,25 @@
+# Roblox Studio
+*.rbxl          # Binary place files (use .rbxlx XML instead)
+*.rbxm          # Binary model files (use .rbxmx XML instead)
+*.rbxlx.bak     # Auto-backups
+*.rbxmx.bak
+*.rblx          # Old format
+*.rblxm
+
+# macOS
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Roblox Studio generated
+Thumbs.db
+*.s是什么
+roblox-studio-renders/
+*.rbxmx.lock
+rbx_asset_*.log
+
+# IDE
+.idea/
+.vscode/
+*.iml
